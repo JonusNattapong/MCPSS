@@ -1,0 +1,2 @@
+# MCPSS
+MCP Smart Server
