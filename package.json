@@ -1,0 +1,44 @@
+{
+  "name": "mcpss",
+  "version": "1.0.0",
+  "description": "MCP Smart Server - ระบบ MCP Server ที่ใช้งานง่ายเพียงแค่ใส่ API key",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonusNattapong/MCPSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JonusNattapong/MCPSS/issues"
+  },
+  "homepage": "https://github.com/JonusNattapong/MCPSS#readme"
+}
